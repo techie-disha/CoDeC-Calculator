@@ -25,7 +25,7 @@ double division(double num1, double num2) {
     // Function to multiply two numbers
 double multiplication(double num1 , double num2)
 {
-    return num1*num2
+    return num1*num2;
 }
 
 int main() {
@@ -36,7 +36,7 @@ int main() {
     cout << "Simple Calculator" << endl;
 
     // Prompt the user for the desired operation
-    cout << "Enter an operation (+, -, /): ";
+    cout << "Enter an operation (+, -, /, x): ";
     cin >> operation;
 
     // Prompt the user to enter two numbers
